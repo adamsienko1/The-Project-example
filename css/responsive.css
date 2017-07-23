@@ -1,0 +1,35 @@
+@media all and (max-width: 768px) {
+    .navbar.navbar-default,
+    .navbar-default.nav-colored {
+        background-color: white;
+    }
+    .navbar.navbar-default a,
+    .navbar-default.nav-colored a {
+        color: #0ED8D6;
+    }
+    .navbar.navbar-default a:hover,
+    .navbar-default.nav-colored a:hover {
+        color: #333333;
+    }
+    
+    .navbar.navbar-default . navbar-toggle {
+        background-color: white;
+        transition: all .3s;
+    }   
+    .navbar.navbar-default .navbar-toggle:hover
+    .navbar.navbar-default .icon-bar{
+        background-color: #0ED8D6;
+    
+    }
+    
+    .navbar.navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: #FFFFFF;
+    }
+    #contact [class*='col-']{
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 480px){
+    h1 i h2
+}
