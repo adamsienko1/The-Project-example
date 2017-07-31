@@ -1,56 +1,57 @@
-body{
+body {
     margin: 0;
 }
-section{
+section {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 60px;
 }
-/*MENU NAWIGACYJNE*/
-.navbar{
-    background-color: transparent;
-    border: transparent; 
-}
 
-.navbar-default .navbar-brand{
+/*NAV MENU*/
+
+.navbar {
+    background-color: transparent;
+    border: transparent;
+}
+.navbar-default .navbar-brand {
     font-family: 'Droid Serif', serif;
     font-style: italic;
     color: white;
-    font-size: 28px;    
+    font-size: 28px;
 }
-
-.nav.navbar-nav.navbar-right li a{
+.nav.navbar-nav.navbar-right li a {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: white;
-    font-size: 18px; 
+    font-size: 18px;
 }
 .navbar-default {
-	transition: all 0.4s;
+    transition: all 0.4s;
     background-color: transparent;
     border: 0;
 }
-.navbar-default .navbar-right li a:hover{
-	color: #0ED8D6;
+.navbar-default .navbar-right li a:hover,
+.navbar-default .navbar-brand:hover {
+    color: #0ED8D6;
 }
 .navbar-default.nav-colored {
     background-color: rgba(100, 170, 170, 0.5);
 }
-.navbar-default.nav-colored .navbar-right li a:hover{
+.navbar-default.nav-colored .navbar-right li a:hover,
+.navbar-default.nav-colored .navbar-brand:hover{
     color: #333;
 }
 
 /*OBRAZEK I NAGŁÓWEK*/
+
 header {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                      url(../img/header/pictures_on_the_wall.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
     background-size: cover;
     height: 100vh;
     top: 0;
     position: relative;
-
 }
-#main-header{
+#main-header {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -59,13 +60,12 @@ header {
     line-height: 10;
     transform: translateY(-50%);
 }
-
-h2{
+h2 {
     font-family: 'Droid Serif', serif;
     font-style: italic;
     font-size: 50px;
 }
-h1{
+h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-style: normal;
@@ -73,19 +73,18 @@ h1{
     font-size: 70px;
     line-height: 2;
 }
+
 /*SECTION SERVICES*/
 
 #services .container h1 {
-        font-size: 45px;	
+    font-size: 45px;
 }
-
 #services .container h2 {
-        font-size: 15px;
-        padding-bottom: 40px;
-        color: #777777;
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: #777777;
 }
-
-#services .fa{
+#services .fa {
     background-color: #0ed8d6;
     color: white;
     font-size: 50px;
@@ -98,53 +97,55 @@ h1{
     border-color: #0ed8d6;
     transition: all 0.5s;
 }
-#services .fa:hover{
+#services .fa:hover {
     background-color: white;
     color: #0ed8d6;
     transform: rotate(360deg);
-    
 }
-
-#services .serv{
+#services .serv {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     font-weight: bold;
 }
-
-#services p{
+#services p {
     font-family: 'Roboto Slab', serif;
     color: #777777;
-    
 }
 
 /*SECTION PORTFOLIO*/
-#portfolio h1{
+
+#portfolio h1 {
     font-size: 45px;
 }
-#portfolio h2{
+#portfolio h2 {
     font-size: 15px;
     margin-bottom: 60px;
 }
-
+#portfolio h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+#portfolio p {
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+}
 #portfolio {
-	background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
 #portfolio .single-portfolio-item {
     background-color: white;
     margin-bottom: 20px;
 }
-#portfolio .portfolio-image-container{
+#portfolio .portfolio-image-container {
     height: 300px;
     overflow: hidden;
 }
-#portfolio .portfolio-image-container .portfolio-image{
+#portfolio .portfolio-image-container .portfolio-image {
     height: 100%;
     background-size: cover;
     background-position: center;
     transition: all .3s;
 }
-
-#portfolio .portfolio-image-container .portfolio-image:hover{
+#portfolio .portfolio-image-container .portfolio-image:hover {
     transform: scale(1.2);
 }
 #portfolio-item-1 {
@@ -165,7 +166,7 @@ h1{
 #portfolio-item-6 {
     background-image: url('../img/portfolio/house_with_blue_doors.jpg');
 }
-#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask{
+#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -175,36 +176,35 @@ h1{
     opacity: 0;
     transition: all 0.5s;
 }
-#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask:hover{
-opacity: 1;  
+#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask:hover {
+    opacity: 1;
 }
-#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask .fa{
+#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask .fa {
     position: absolute;
     color: white;
     font-size: 3em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: all .3s; 
+    transition: all .3s;
 }
 
 /*SECTION TEAM*/
 
 #team .container h1 {
-    font-size: 45px;	
+    font-size: 45px;
 }
-
 #team .container h2 {
-    font-size: 15px;     
+    font-size: 15px;
 }
-#team img{
+#team img {
     width: 60%;
     height: 60%;
     border-radius: 50%;
     padding: 30px;
 }
 #team .container .row .members .social a,
-footer .container .row .social a{
+footer .container .row .social a {
     height: 45px;
     width: 45px;
     font-size: 2em;
@@ -216,9 +216,8 @@ footer .container .row .social a{
     transition: all 0.5s;
     margin: 0 5px;
 }
-
 #team .container .row .members .social a:hover,
-footer .container .row .social a:hover{
+footer .container .row .social a:hover {
     background-color: #0ed8d6;
 }
 #team .container p {
@@ -228,22 +227,22 @@ footer .container .row .social a:hover{
 }
 
 /*SECTION CONTACT US*/
+
 #contact {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
     background-size: cover;
 }
 #contact .container h1 {
-        font-size: 45px;
-        color: white;
+    font-size: 45px;
+    color: white;
 }
 #contact .container h2 {
-        font-size: 15px;
-        color: white;
+    font-size: 15px;
+    color: white;
     margin-bottom: 40px;
 }
-
 #contact .container .form input,
-#contact .container .form textarea{
+#contact .container .form textarea {
     width: 100%;
     margin-bottom: 25px;
     line-height: 40px;
@@ -253,14 +252,14 @@ footer .container .row .social a:hover{
     font-weight: bold;
     border-radius: 5px;
     padding: 5px;
-     
 }
-#contact .container .form input{
-   height: 40px;   
+#contact .container .form input {
+    height: 40px;
 }
+
 /*FOOTER*/
 
-footer{
+footer {
     background-color: white;
     text-align: center;
     height: 70px;
@@ -271,8 +270,8 @@ footer .footer-copy p {
     font-family: 'Roboto Slab', serif;
     color: #777777;
 }
-footer .footer-policy a{
-    color: #777777; 
+footer .footer-policy a {
+    color: #777777;
     text-decoration: none;
     padding: 10px;
     font-family: 'Roboto Slab', serif;
