@@ -222,14 +222,14 @@
             <h1>Contact us</h1>
             <h2>Mrówka pszczoła i motylek</h2>
             <div class="row">
-                <form action="contact-us">
+               <form action="https://formspree.io/adamsienko1@gmail.com" method="post">
                     <div class="col-sm-6 form">
-                        <input type="text" id='name' placeholder="YOUR NAME *"><br>
-                        <input type="text" id='email' placeholder="YOUR EMAIL *"><br>
-                        <input type="number" id='phone' placeholder="YOUR PHONE *">
+                        <input type="text" id='name' name="name" placeholder="YOUR NAME *"><br>
+                        <input type="text" id='email' name="email" placeholder="YOUR EMAIL *"><br>
+                        <input type="number" id='phone' name="phone" placeholder="YOUR PHONE *">
                     </div>
                     <div class="col-sm-6 form">
-                        <textarea name="" id="message" cols="30" rows="4" placeholder="YOUR MESSAGE *"></textarea>
+                        <textarea id="message" name="message" cols="30" rows="4" placeholder="YOUR MESSAGE *"></textarea>
                     </div>
                     <div class="col-sm-12">
                         <input type="submit" class="btn btn-info btn-lg" value="SEND MESSAGE">
