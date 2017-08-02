@@ -8,7 +8,7 @@ Used technologies:<br>
   
   click to see --> https://adamsienko1.github.io/The-Project-example/
   
-![Top of the page](/img/demo.png)
+![Top of the page](/img/demo.jpg)
 
 
 
